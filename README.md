@@ -1,5 +1,6 @@
 # aws-skills-challenges
-I will provide a step by step guide to you so that you can develop skills in AWS:  
+This repo is a step by step guide of AWS labs:  
+
 1. Costing and Billing 
 2. Storage (S3)  
 3. Networking (VPC)  
