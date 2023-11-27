@@ -26,6 +26,9 @@ For this exercise, we will focus on Cost budget.
 
 - After creating your free tier AWS account, sign in to the AWS Management Console.
 
+  <img width="941" alt="aws console 1" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/b660dfb4-5d66-4b95-8131-3306525cca19">
+
+
 - Then open the AWS Cost Management console. In the navigation pane, choose Budgets.
 
 - At the top of the page, choose Create budget. Under Budget setup, choose between Use a template (simplified) and Customize (advanced).
