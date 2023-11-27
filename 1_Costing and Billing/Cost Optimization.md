@@ -31,25 +31,40 @@ For this exercise, we will focus on Cost budget.
 
 - Then open the AWS Cost Management console. In the navigation pane, choose Budgets.
 
+
+  <img width="943" alt="aws console 2" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/33681daa-d72d-4e8d-8cb0-ba7b8334479b">
+
+
 - At the top of the page, choose Create budget. Under Budget setup, choose between Use a template (simplified) and Customize (advanced).
 
 Note: Customize (advanced) gives an option to customize the time period, the start month and specific amounts.
 
 - Select Use a template (simplified). Scroll down and fill out the form.
 
+  <img width="789" alt="AWS console 3" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/7a744397-6b9d-4040-a943-131471885d2f">
+
+
 - Select Monthly cost budget (remember our goal, see project outline).
 Add the budget name, the budgeted amount, the email recipient you want to notify when the threshold has exceeded.
 
 Note: it’s possible to add several emails.
 
+<img width="587" alt="aws console 4" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/5b1580db-de59-43a6-bde1-86b71f5957bf">
+
 
 - Once again remember our goal. We must set a “90% of budget” alert.
+
 Note: In order to be notified on the state of our budget, we can create up to 5 different alerts based on your budgeted amount.
+
+<img width="557" alt="aws console 5" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/6db6f3c9-0ce1-4cad-b5cf-354ce5436ef3">
 
 
 - Also, we have the option to attach actions that run whenever our alert threshold has been exceeded, such as stopping an EC2 instance from incurring any further costs.
 
 - Verify everything has been created and filled out correctly. Then click create budget.
+
+<img width="938" alt="aws console 6" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/ec1a60cb-0344-48a9-8b4e-f77d05210a82">
+
 
 Voila! Our recurring monthly Budget DJ_BUDGET and Budget Alert is set budget to $10.00, scoped to All Services. When a service reaches “90% of budget”, an alert will be sent to my email djkone2025@gmail.com. You’ve now developed an additional AWS skill.
 
