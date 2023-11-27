@@ -2,11 +2,17 @@
 
 ## Prerequisite:
 
-For this mini-project, you need an AWS account. Set up a Free Tier account www.aws.amazon.com/free
+For this mini-project, you need:
+- access to an AWS account.
+- to Set up a Free Tier account www.aws.amazon.com/free
 
 ## Project Outline
 
-Costs and Billing: Create a recurring monthly Budget and Budget Alert. Name it: [name]_BUDGET. Set budget to $10.00, scope to All Services. Set a “90% of budget” alert to email to your email address.
+Costs and Billing: 
+Create a recurring monthly Budget and Budget Alert. 
+- Name it: [name]_BUDGET.
+- Set budget to $10.00, scope to All Services.
+- Set a “90% of budget” alert to email to your email address.
 
 ## Introduction to Budget
 A budget is necessary to track and take action on your costs and usage. By default, single accounts, the management account, and member accounts in an organization can create budgets.
