@@ -1,22 +1,24 @@
-# Background
+# STORAGE S3
+
+## Background
 
 Amazon S3 is object storage service built to store and retrieve any amount of data from anywhere. S3 is a simple storage service that offers industry leading durability, availability, performance, security, and virtually unlimited scalability at very low costs.
 
 Amazon S3 provides a simple web service interface that you can use to store and retrieve any amount of data, at any time, from anywhere. Using this service, you can easily build applications that make use of cloud native storage.
 
-# Prerequisite
+## Prerequisite
 
 For this mini-project, you need an AWS account. 
 
 Set up a Free-Tier account www.aws.amazon.com/free.
 
-# Project Outline
+## Project Outline
 
 Create a Private S3 bucket and copy a file into it using the AWS console or AWS CLI.
 
 Now let’s have fun “practicing”.
 
-## Part 1: Create your first bucket
+### Part 1: Create your first bucket
 
 •	After creating your free tier AWS account, sign in to the AWS Management Console.
 
@@ -40,12 +42,12 @@ Now let’s have fun “practicing”.
 
 ![Picture4](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/22f1b7ec-ebd8-4c89-82a1-9b215331657d)
 
-###     Cheat Sheet: 
+####     Cheat Sheet: 
 
         For Region, choose the AWS Region where you want the bucket to reside. To minimize latency and costs and address regulatory requirements, choose a Region close to you.
 
  
-## Part 2: Upload a file into the file using the AWS console or AWS CLI.
+### Part 2: Upload a file into the file using the AWS console or AWS CLI.
 
 After creating a bucket in Amazon S3, it’s time to upload an object to the bucket. An object can be any kind of file (a text file, a photo, a video).
 
