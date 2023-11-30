@@ -1,12 +1,14 @@
-# Background
+# VPC
+
+## Background
 Amazon VPC lets you provision a logically isolated section of the Amazon Web Services (AWS) cloud where you can launch AWS resources in a virtual network that you define.
 
 With VPC you control your virtual networking environment, including selection of your own IP address ranges, creation of subnets, and configuration of route tables and network gateways.
 
-# Prerequisite
+## Prerequisite
 For this project, you need an AWS account. Set up a Free-Tier account www.aws.amazon.com/free.
 
-# Project Outline
+## Project Outline
 
 Build a VPC with 3 subnets named “Web”, “App”, and “Data”. The “Web” subnet should contain half the available IPV4 addresses while the other two contain one quarter each. Each subnet should be in a separate Availability Zone within the same AWS region. VPC CIDR: 10.1.1.0/24.
 
