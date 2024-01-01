@@ -9,17 +9,17 @@ Amazon Linux 2 is a Linux operating system from AWS that provides a security-foc
 
 Using CloudFormation to launch an EC2 instance allows you to automate the infrastructure provisioning process and easily replicate the deployment in the future.
 
-Prerequisite
+### Prerequisite
 
 For this project, you need an AWS account. Set up a Free-Tier account www.aws.amazon.com/free.
 
-Project Outline
+### Project Outline
 
 We’ll provide the steps by steps to launch an Amazon Linux 2 EC2 instance using CloudFormation.
 
-Let’s have fun.
+### Let’s have fun.
 
-Step 1: Create a YAML or JSON script.
+#### Step 1: Create a YAML or JSON script.
 
 •	Open your favorite code editor.
 
@@ -30,17 +30,23 @@ Make sure to add Image Id of the AMI, the key pair, CidrIp, VPC and subnets in t
 
 •	Save the template to a file on your local machine with a .yaml or .json extension.
 
-Step 2: Create a CloudFormation Template.
+#### Step 2: Create a CloudFormation Template.
 
 •	Open the AWS Management Console.
 
 •	Go to the CloudFormation service in the AWS Management Console.
+
+![Alt text](image-1.png)
  
 •	Click on the “Create stack” button to start the stack creation process.
 
 •	Choose “Upload a template file” and click “Choose file”. Select the CloudFormation template file you saved in step 1.
+
+![Alt text](image-2.png)
  
 •	Provide a stack name for your EC2 instance and specify any additional parameters required by your template (if any).
+
+![Alt text](image-3.png)
  
 •	Configure any additional stack options such as tags, permissions, and advanced settings.
 
@@ -54,5 +60,6 @@ When the stack is created, you can access your EC2 instance using SSH or other r
 
 Voilà! You have launched an Amazon Linux 2 EC2 Instance using CloudFormation.
  
+![Alt text](image-4.png)
 
 
