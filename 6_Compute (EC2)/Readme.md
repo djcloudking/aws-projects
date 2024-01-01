@@ -3,9 +3,6 @@
 
 An EC2 instance is a virtual server in the AWS Cloud.
 
-![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/94ac31d0-dd26-4cca-a333-e4b9ce5b60da)
-
-
 ### Background
 
 Amazon EC2 (Elastic Compute Cloud) is a web service provided by Amazon Web Services (AWS) that allows you to launch and manage virtual servers, known as EC2 instances, in the cloud. 
