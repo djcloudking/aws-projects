@@ -1,5 +1,5 @@
 # aws-skills-challenges
-This repo is a step by step guide of AWS labs:  
+This repo is a step by step guide of AWS labs for beginners:  
 
 1. Costing and Billing 
 2. Storage (S3)  
