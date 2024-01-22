@@ -8,3 +8,5 @@ This repo is a step by step guide of AWS labs for beginners:
 5. Database (RDS)  
 6. Compute (EC2)  
 7. Automation (CloudFormation)
+8. AWS FSx Lustre
+9. AWS S3 Event Notification
