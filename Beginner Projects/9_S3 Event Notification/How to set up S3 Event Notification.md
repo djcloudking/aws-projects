@@ -4,7 +4,7 @@ In this short tutorial, I will show you how to set up S3 Events Notification.
 
 ## Background
 
-Amazon S3 Event Notification is a  .
+Amazon S3 Event Notifications enable you to receive notifications when certain events happen in your S3 bucket. These events can include object creation, deletion, and more. 
 
 # Prerequisite
 
@@ -13,7 +13,9 @@ For this tutorial, you need an AWS account. Set up a Free-Tier account www.aws.a
 
 ## Let’s have fun 
 
-### Step 1: Create S3 bucket
+To set up S3 event notifications, you typically follow these steps: .
+
+### Step 1: Create S3 bucket or use an existing bucket
 
 - Log in to your AWS account.
 
@@ -36,7 +38,7 @@ For this tutorial, you need an AWS account. Set up a Free-Tier account www.aws.a
 
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/3e964e56-f26f-4633-9896-45dfdc0e48f7)
  
-### Step 3: 
+### Step 3: Configure your event notifications
 
 - Select your bucket and click on property. 
 
@@ -60,6 +62,7 @@ For this tutorial, you need an AWS account. Set up a Free-Tier account www.aws.a
  
 - Before clicking on save changes, we must create a SQS first. 
 
+
 ### Step 3: Create SQS first
 
 - Click on Create queue to start the process.
@@ -70,47 +73,53 @@ For this tutorial, you need an AWS account. Set up a Free-Tier account www.aws.a
 
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/ca602fb1-a8df-4a49-ae02-372cadd1de05)
 
+
 ### Step 4: Change Access Policy
 
 - Scroll down and click on Access policy.
 
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/98419fca-16f8-4f7b-afd2-f3981bc2134e)
  
-- It's time to change the accesss policy Permissions.
-
-Click edit > Policy generator
+- It's time to change the accesss policy Permissions. At your left side, click edit then click on Policy generator.
  
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/6005dfc7-16ca-412e-a6a8-3427fb9713ef)
 
-Copy the ARN from the first policy and paste it in the generator
-Click Add statement > Then Generate Policy
+- Now copy the ARN from the the template policy and paste it in the generator. 
+
+- Click on Add statement. Then clcik on Generate Policy.
  
-Copy and paste 
-Update policy, save the SQS
-Go back to the Event Notification and save changes
+- Copy the generated policy and paste it in our Event Notification. 
+
+- Click on Update policy, and click on save the SQS. 
+
+- Go back to the Event Notification page. Select the SQS in the dropdown button. 
+
+- Click on Save changes to create your S3 Event Notification.
 
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/30c126f0-e9cc-4c63-af92-c41824ab149c)
  
-Event notification attached to SQS is created 
+- As you see, your Event notification attached to SQS is created. 
 
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/865fff88-9c1e-4fc2-b892-75a528a8b74d)
 
 
-12
-Go back to SQS you created and click on Send and receive message
+### Step 4: Test Event Notification
+
+- Go back to the SQS you created and click on Send and receive message.
 
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/617805b6-0a24-4fc8-a129-c03d5a586885)
  
-Scroll down to receive messages and click on poll for messages
+- Scroll down to receive messages and click on poll for messages.
  
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/cd822a39-d14c-4bfa-94ad-7a6ca1031ae0)
 
-You will see the message . Click on it
+- You will see the message . Click on it.
  
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/9251103f-081a-48f7-9208-ea635de9f0e8)
 
  
-Event notification has been created
+- As you can see, S3 Event notification has been created successfully.
+
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/b04cd156-3122-477e-afb0-759cc5abbf4a)
  
 
