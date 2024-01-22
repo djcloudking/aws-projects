@@ -116,20 +116,21 @@ To set up S3 event notifications, you typically follow these steps:
  
 - Copy the generated policy and paste it in our Event Notification. 
 
-- Click on Update policy, and click on save the SQS. 
-
-- Go back to the Event Notification page. Select the SQS in the dropdown button. 
-
-- Click on Save changes to create your S3 Event Notification.
-
 
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/30c126f0-e9cc-4c63-af92-c41824ab149c)
 
  
-- As you see, your Event notification attached to SQS is created. 
+- Click on Update policy, and click on save the SQS. 
+
+- Go back to the Event Notification page. Select the SQS in the dropdown button. 
 
 
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/865fff88-9c1e-4fc2-b892-75a528a8b74d)
+
+
+- Click on Save changes to create your S3 Event Notification.
+
+- As you see, your Event notification attached to SQS is created. 
 
 
 ### Step 4: Test Event Notification
@@ -151,12 +152,11 @@ To set up S3 event notifications, you typically follow these steps:
 
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/9251103f-081a-48f7-9208-ea635de9f0e8)
 
- 
-- As you can see, S3 Event notification has been created successfully.
-
-
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/b04cd156-3122-477e-afb0-759cc5abbf4a)
  
+
+- As you can see, S3 Event notification has been created successfully.
+
 
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/10abde94-b727-4711-8096-84c031a9ab3c)
 
