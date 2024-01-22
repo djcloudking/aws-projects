@@ -100,15 +100,19 @@ To set up S3 event notifications, you typically follow these steps:
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/98419fca-16f8-4f7b-afd2-f3981bc2134e)
 
  
-- It's time to change the accesss policy Permissions. At your left side, click edit then click on Policy generator.
+- It's time to change the accesss policy Permissions. At your right side, click edit then click on Policy generator.
 
  
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/6005dfc7-16ca-412e-a6a8-3427fb9713ef)
 
 
+- Add a star * to Principal. 
+
+- Select Actions "Send Messages".
+
 - Now copy the ARN from the the template policy and paste it in the generator. 
 
-- Click on Add statement. Then clcik on Generate Policy.
+- Click on Add statement. Then click on Generate Policy.
  
 - Copy the generated policy and paste it in our Event Notification. 
 
