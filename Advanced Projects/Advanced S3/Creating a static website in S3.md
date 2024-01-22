@@ -30,21 +30,28 @@ If you don’t know how to create a bucket, check my article (how to create a S3
 
 •	Select Properties. Under Static website hosting, select Edit.
 
- 
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/f82c51ac-3c1d-4425-ad23-edfe5d1087bf)
+
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/f9b35322-3b28-490e-857d-4d4a128f2d10)
  
 •	Select Use this bucket to host a website.
 
 •	Under Static website hosting, choose Enable.
 
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/47fa1123-b5c7-4a00-a2bf-6d12e056454f)
  
 •	In Index document, enter the file name of the index document, typically index.html.
 
 •	In Error document, enter the custom error document file name.
 
 •	Skip all the optional choice for now. Then, Select Save changes.
+
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/8f72bd5b-ca83-48b8-a5a8-a91d046e4f82)
  
 •	Under Static website hosting, note the Endpoint. In my case, the endpoint is http://djnewbucket.s3-website-us-east-1.amazonaws.com.
  
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/63e7c15c-6e67-41a4-94ec-8c158efa943b)
+
 
 #### Third, edit Block Public Access settings
 
@@ -56,9 +63,12 @@ If you don’t know how to create a bucket, check my article (how to create a S3
 
 •	Under Block public access (bucket settings), choose Edit.
 
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/9fef7fb2-bbd5-4af1-abeb-aefce38c46fa)
  
 •	Clear Block all public access, and choose Save changes. Confirm.
  
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/a0ecb919-4b1a-40e2-854b-ba2baa3b9a50)
+
 
 #### Fourth, add a bucket policy that makes your bucket content publicly available
 
@@ -67,8 +77,12 @@ If you don’t know how to create a bucket, check my article (how to create a S3
 •	Select Permissions.
 
 •	Under Bucket Policy, select Edit.
+
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/7e7a2265-c85e-4ff3-a09d-cc8e8dd0d618)
  
 To grant public read access for your website, copy the following bucket policy, and paste it in the Bucket policy editor.
+
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/826836ed-0400-4124-a0a3-136f686da59b)
  
 •	Update the Resource to your bucket name.
 
@@ -76,11 +90,14 @@ Cheat Sheet: In the preceding example bucket policy, Bucket-Name is a placeholde
 
 •	Select Save changes. A message appears indicating that the bucket policy has been successfully added.
 
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/196207f7-8634-4591-9cf1-5542db5e8fec)
  
 #### Fifth, Configure an index document.
 
 Now it’s the time to create an index file. If you don’t know how to create an index file, use this one below:
  
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/25fc0342-c5fe-4786-ac65-30d38ba76d62)
+
 •	Save the index file locally.
 
 Cheat Sheet: the index document file name must exactly match the index document name that you enter in the Static website hosting dialog box.
@@ -90,6 +107,8 @@ Cheat Sheet: the index document file name must exactly match the index document 
 •	Enable static website hosting for your bucket, and enter the exact name of your index document (for example, index.html). For more information, see Enabling website hosting.
 
 •	After enabling static website hosting, upload the index document to your bucket, do one of the following: drag and drop the index file into the console bucket listing, or select Upload, and follow the prompts to choose and upload the index file.
+
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/6964e042-af70-41e3-a908-f53f5fb5e241)
 
  
 #### Sixth, configure an error document.
@@ -104,6 +123,8 @@ Cheat Sheet: the index document file name must exactly match the index document 
 
 •	Now upload the error document to your bucket.
 
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/50f27c15-873e-4260-a73e-5a21af675efb)
+
  
 #### Finally, test your website endpoint
 
@@ -111,11 +132,15 @@ Cheat Sheet: the index document file name must exactly match the index document 
 
 •	At the bottom of the page, under Static website hosting, select Bucket website endpoint.
 
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/b0143b47-973e-4c3c-b8d8-81dca302a072)
  
 •	Your index document opens in a separate browser window.
 
 Cheat Sheet: Amazon S3 does not support HTTPS access to the website. If you want to use HTTPS, you can use Amazon CloudFront to serve a static website hosted on Amazon S3.
+
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/eb7d666c-9eaf-4690-a5bf-dd2fe852dc77)
  
+
 Voilà! You now have a website hosted on Amazon S3. This website is available at the Amazon S3 website endpoint.
 
 Thank you for reading and/or following along! Please stay tuned for all my upcoming projects, and feel free to check out the rest of my tutorials.
