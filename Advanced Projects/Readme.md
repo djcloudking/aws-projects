@@ -1,1 +1,1 @@
-This repo is a step by step guide of AWS projects
+This repo is a step by step guide of AWS projects. Find the details of AWS Services & projects in Cloud & DevOps Engineering within AWS.
