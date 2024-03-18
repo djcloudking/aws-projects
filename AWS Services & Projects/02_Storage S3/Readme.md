@@ -14,10 +14,10 @@ Set up a Free-Tier account www.aws.amazon.com/free.
 
 ## Project Outline
 
-Create a Private S3 bucket and copy a file into it using the AWS console or AWS CLI.
+ using the AWS console or AWS CLI.
 
 Now let’s have fun “practicing”.
-
+Create a Private S3 bucket and copy a file into it
 ### Part 1: Create your first bucket
 
 •	After creating your free tier AWS account, sign in to the AWS Management Console.
