@@ -2,9 +2,6 @@
 
 This brief tutorial demonstrates how to establish connections to an EC2 instance using SSH and RDP, particularly useful for troubleshooting purposes.
 
-## Background
-
-
 
 ## Prerequisite
 
