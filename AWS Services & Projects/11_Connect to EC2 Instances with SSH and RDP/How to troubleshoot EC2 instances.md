@@ -24,16 +24,27 @@ Establish connections to an EC2 instance using SSH and RDP.
 
 - On the left-hand side of your EC2 dasboard, click on **Instances**
 
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/5a24f791-16b8-4ce5-aa24-5c6a39ba6a7b)
+
+
 - In the new interface, click on **Launch instances**
 
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/47d8636d-869e-417e-acf0-4b6d1f5fe114)
+
+
 - Fill out the form by adding the name of your EC2. 
+
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/692841d3-cf02-4286-8726-ee66a7ec8fbb)
 
 
 ### Step 2: Create a keypair
 
 - In the form, you have 2 options: use an existing keypair or create a new keypair. Click on **Create new keypair**.
 
-Cheat Sheat: When creating a new key pair, select an easily memorable name. Choose a RSA key pair type and opt for the .pem key file format.
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/e4e20279-736e-45de-863e-d97e9ec3adde)
+
+
+*Cheat Sheat: When creating a new key pair, select an easily memorable name. Choose a RSA key pair type and opt for the .pem key file format.*
 
 - Download your key onto your local computer. Be aware of where you save the .pem file and how you identify the key later when connecting to the instance.
 
@@ -42,7 +53,10 @@ Cheat Sheat: When creating a new key pair, select an easily memorable name. Choo
 
 - (Still in the same form) create a security group or select an existing one. 
 
-- Select "Allow SSH traffic from" and "My IP". 
+- Select "Allow SSH traffic from" and "My IP".
+
+<img width="446" alt="image" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/615cbe99-d6f6-467e-a452-28cc8a075945">
+
 
 - Now launch your instance.
 
@@ -57,6 +71,9 @@ Cheat Sheat: When creating a new key pair, select an easily memorable name. Choo
 
 - Go to SSH Client tab, and read the instructions. AWS has provided the command to connect to EC2 via SSH, which you can copy and run in the terminal.
 
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/e71dcf7d-6e07-4d6a-977d-f6405e9122d7)
+
+
 - Locate and click on the “Connect” button to proceed. 
 
 - When the next page loads, it should automatically open into the “SSH client” tab, providing all the necessary information to connect to your instance.
@@ -67,7 +84,12 @@ Cheat Sheat: When creating a new key pair, select an easily memorable name. Choo
 
 Cheat Sheet: *Once you’re in the correct directory, you copy the command from the “Connect” tab in the AWS console and paste it into your terminal. Then, execute the command. If this is your first time connecting to the instance with this particular IP address, it will prompt you to confirm the connection. Type “yes” into the command line and press Enter to proceed.*
 
+<img width="449" alt="image" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/61c249d6-d37c-4568-b2cf-b9409d3e3633">
+
+
 - Run "whoami" to double check if we are now connected.
+
+<img width="394" alt="image" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/72f4c038-c88b-462b-9dbd-83bd233127e4">
 
 
 **We’ve deployed an EC2 instance and connected to it with SSH.**
@@ -82,7 +104,12 @@ Let's replicate the same steps for RDP connection.
 
 - Go back to your EC2 dasboard, and create an instance.
 
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/cbcb62c8-70fd-4b3c-b549-730c3d33f478)
+
+
 - Fill out the form by adding a name. Select Windows as AMI image. Then create a new keypair and a security group.
+
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/eb84d490-812c-4101-bdc7-04d196d5e12f)
 
 
 ### Step 2: Create a keypair
@@ -109,9 +136,16 @@ Let's replicate the same steps for RDP connection.
 
 Cheat Sheet: *There’s a difference in the “Connect” page compared to the Linux server.*
 
+
 - Click on the “Download remote desktop” file to install Windows RDP onto your PC.
 
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/3a7f8222-13a0-4623-83a3-0ab227f1f47e)
+
+
 - Click on the “Get password” icon bolded in dark grey. Input your .pem file, which allows you to retrieve the password for your RDP session. 
+
+![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/a649a036-bf8a-40f1-86df-101340808550)
+
 
 - Open your RDP application and input the generated password associated with the “Administrator” username.
 
