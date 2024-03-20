@@ -169,7 +169,7 @@ Cheat Sheet: *There’s a difference in the “Connect” page compared to the L
 <img width="281" alt="image" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/150e3f59-45dc-4a33-84a1-349c1e419da9">
 
 
-<img width="453" alt="image" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/afd7c6fb-90fc-4d9e-8069-d1a8f18cb02d">
-
-
 **Voila! We’ve deployed an EC2 instance and connected to it with RDP.**
+
+
+<img width="453" alt="image" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/afd7c6fb-90fc-4d9e-8069-d1a8f18cb02d">
