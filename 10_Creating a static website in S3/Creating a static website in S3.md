@@ -141,7 +141,7 @@ Cheat Sheet: Amazon S3 does not support HTTPS access to the website. If you want
 ![image](https://github.com/djcloudking/aws-skills-challenges/assets/122766532/eb7d666c-9eaf-4690-a5bf-dd2fe852dc77)
  
 
-Voilà! You now have a website hosted on Amazon S3. This website is available at the Amazon S3 website endpoint.
+Voilà! You now have a website hosted on Amazon S3. This website is available at the AWS S3 website endpoint.
 
 Thank you for reading and/or following along! Please stay tuned for all my upcoming projects, and feel free to check out the rest of my tutorials.
 
