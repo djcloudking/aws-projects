@@ -32,7 +32,6 @@ For this scenario, I will not do a lab/tutorial. I will provide solutions below 
 
 - In the AWS Management Console, navigate to the Amazon FSx service and create a new Lustre file system.
 
-I will make a YouTube video to explain this process later.
 
 #### Step 3: Enable automatic backups (this is optional)
 
