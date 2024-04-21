@@ -11,7 +11,7 @@ Amazon S3 Event Notifications enable you to receive notifications when certain e
 For this tutorial, you need an AWS account. Set up a Free-Tier account www.aws.amazon.com/free.
 
 
-## Let’s have fun 
+## Steps
 
 To set up S3 event notifications, you typically follow these steps: 
 
