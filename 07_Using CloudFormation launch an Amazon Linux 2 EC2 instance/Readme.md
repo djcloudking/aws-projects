@@ -17,9 +17,9 @@ For this project, you need an AWS account. Set up a Free-Tier account www.aws.am
 
 We’ll provide the steps by steps to launch an Amazon Linux 2 EC2 instance using CloudFormation.
 
-### Let’s have fun.
+### Steps
 
-#### Step 1: Create a YAML or JSON script.
+#### Step 1: Create a YAML or JSON script
 
 •	Open your favorite code editor.
 
@@ -30,7 +30,7 @@ Make sure to add Image Id of the AMI, the key pair, CidrIp, VPC and subnets in t
 
 •	Save the template to a file on your local machine with a .yaml or .json extension.
 
-#### Step 2: Create a CloudFormation Template.
+#### Step 2: Create a CloudFormation Template
 
 •	Open the AWS Management Console.
 
