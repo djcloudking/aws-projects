@@ -14,7 +14,7 @@ For this project, you need an AWS account. Set up a Free-Tier account www.aws.am
 
 Create a Lambda function that converts Celsius to Fahrenheit.
 
-Let’s have fun.
+## Steps
 
 -	After creating your free tier AWS account, sign in to the AWS Management Console.
 
