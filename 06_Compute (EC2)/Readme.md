@@ -22,7 +22,7 @@ For this project, you need an AWS account. Set up a Free-Tier account www.aws.am
 
 Launch an Amazon Linux 2 EC2 Instance.
 
-### Let’s have fun.
+### Steps
 
 1. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
 
