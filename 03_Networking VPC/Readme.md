@@ -1,11 +1,13 @@
 # VPC
 
 ## Background
+
 Amazon VPC lets you provision a logically isolated section of the Amazon Web Services (AWS) cloud where you can launch AWS resources in a virtual network that you define.
 
 With VPC you control your virtual networking environment, including selection of your own IP address ranges, creation of subnets, and configuration of route tables and network gateways.
 
 ## Prerequisite
+
 For this project, you need an AWS account. Set up a Free-Tier account www.aws.amazon.com/free.
 
 ## Project Outline
