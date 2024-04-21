@@ -9,12 +9,17 @@ For this mini-project, you need:
 ## Project Outline
 
 Costs and Billing: 
+
 Create a recurring monthly Budget and Budget Alert. 
+
 - Name it: [name]_BUDGET.
+
 - Set budget to $10.00, scope to All Services.
+
 - Set a “90% of budget” alert to email to your email address.
 
 ## Introduction to Budget
+
 A budget is necessary to track and take action on your costs and usage. By default, single accounts, the management account, and member accounts in an organization can create budgets.
 
 When you create a budget, AWS Budgets provides a Cost Explorer graph to help you see your incurred costs and usage.
@@ -22,8 +27,11 @@ When you create a budget, AWS Budgets provides a Cost Explorer graph to help you
 It’s possible to track against the following budgets:
 
 - Cost
+
 - Usage
+
 - Savings Plans (Savings Plans utilization, Savings Plans coverage)
+
 - Reservation (Reservation utilization, Reservation coverage).
   
 For this exercise, we will focus on Cost budget.
