@@ -1,4 +1,4 @@
-## Creating a MySQL RDS single-AZ database instance.
+## Creating a MySQL RDS single-AZ database instance
 
 
 If you have shopped online or bought something from an ecommerce website, you have used MySQL.
