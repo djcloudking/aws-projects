@@ -42,6 +42,7 @@ This hands-on experience was designed to deepen understanding of EC2, IAM and ou
 - Clone this project from github. Open your terminal and type git clone https://github.com/verma-kunal/AWS-Session.git
 
 - Setup the following environment variables - (.env) file
+
 DOMAIN= ""
 PORT=3000
 STATIC_DIR="./client"
