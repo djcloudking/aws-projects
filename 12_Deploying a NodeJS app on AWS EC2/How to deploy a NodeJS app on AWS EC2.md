@@ -39,7 +39,9 @@ This hands-on experience was designed to deepen understanding of EC2, IAM and ou
 
 ### Step 1: Setting up environment
 
-- Clone this project from github. Open your terminal and type git clone https://github.com/verma-kunal/AWS-Session.git
+- Let me test locally before deploying our app to AWS. For that reason, I am going to clone a repository from github. 
+
+- Open your terminal and type git clone https://github.com/verma-kunal/AWS-Session.git
 
 - Setup the following environment variables - (.env) file
 
@@ -49,7 +51,8 @@ STATIC_DIR="./client"
 
 PUBLISHABLE_KEY=""
 SECRET_KEY=""
-Initialise and start the project
+
+- Initialise and start the project. Type the follwing commands:
 npm install
 npm run start
 
