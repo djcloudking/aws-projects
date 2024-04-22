@@ -37,9 +37,9 @@ This hands-on experience was designed to deepen understanding of EC2, IAM and ou
 ## Steps
 
 
-### Step 1: Setting up environment
+### Step 1: Setting up environment locally
 
-- Let me test locally before deploying our app to AWS. For that reason, I am going to clone a repository from github. 
+- Let me test locally (on my laptop directly) before deploying our app to AWS. For that reason, I am going to clone a repository containing NodeJS app from github. 
 
 - Open your terminal and type git clone https://github.com/verma-kunal/AWS-Session.git
 
@@ -56,4 +56,8 @@ SECRET_KEY=""
 npm install
 npm run start
 
+- 
 
+- 
+
+### Step 2: Deploying application on to AWS EC2
