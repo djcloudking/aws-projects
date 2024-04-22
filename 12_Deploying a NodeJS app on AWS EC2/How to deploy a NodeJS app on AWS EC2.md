@@ -43,7 +43,7 @@ This hands-on experience was designed to deepen understanding of EC2, IAM and ou
 
 - Open your terminal and type git clone https://github.com/verma-kunal/AWS-Session.git
 
-- Setup the following environment variables - (.env) file
+- Setup the following environment variables - (.env) file using the commands below:
 
 DOMAIN= ""
 PORT=3000
@@ -52,7 +52,21 @@ STATIC_DIR="./client"
 PUBLISHABLE_KEY=""
 SECRET_KEY=""
 
-- Initialise and start the project. Type the follwing commands:
+- Name Domain as "http://localhost:3000". For publishable key and secret key, I will use Stripe API key. If you don't know, Stripe is a payment gateway. So you can find the API key online easily. 
+
+Cheat Sheet: Follow the steps below to reveal a secret API key for test mode for Stripe.
+
+Before revealing a secret key in test mode, you must login to your stripe account. If you don't have one, create an account here: https://dashboard.stripe.com/test/apikeys 
+
+1. In the Developers Dashboard, select the API keys tab.
+2. In the Standard keys list, in the Secret key row, click Reveal test key.
+3. Copy the key value by clicking it.
+4. Save the key value.
+5. Click Hide test key.
+
+- Paste the keys in the env file. Save it. 
+
+- Now, initialise and start the project. Type the follwing commands:
 npm install
 npm run start
 
