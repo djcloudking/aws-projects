@@ -75,6 +75,7 @@ Congratulations you’ve created two S3 bucket but the tutorial is not completed
 
 •	Click on the link at the bottom of the window. You should see this error message because we have not upload any contents yet.
  
+
 ## Step 3- Add contents to the production bucket
 
 •	Locate your website contents on your personal computer.
@@ -84,6 +85,7 @@ Congratulations you’ve created two S3 bucket but the tutorial is not completed
 •	Go back to the S3 source bucket to upload website contents.
  
 •	After uploading successfully, it’s time to create our pipeline.
+
 
 ## Step 4- Create a new pipeline via AWS Codepipeline
 
@@ -117,7 +119,8 @@ Congratulations you’ve created two S3 bucket but the tutorial is not completed
  
 Congratulations you’ve created your first pipeline using AWS Codepipeline.
 
-*Step 5- Verify*
+
+## Step 5- Verify
 
 •	Go back to the static website hosting in demo-website-prod S3 bucket.
  
