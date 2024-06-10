@@ -11,7 +11,7 @@ Click on the link to learn how to create a AWS EC2 instance.
 
 ### SSH into the instance
 
-*Here a reminder about how to SSH into an EC2 instance. Click here.
+Here a reminder about how to SSH into an EC2 instance. Click here.
 
 After doing SSH into the EC2 instance you need to change the user to the super user by using the command : 
 
@@ -63,7 +63,7 @@ so that you won’t have any user permission issues.
 - It's time to run the app: *** node index.js ***
 
 
-
-
-
 ## Access the application in browser
+
+- Now you should be able to see the app using the public IP of the machine or the public DNS of the machine
+
