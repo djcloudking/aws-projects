@@ -80,6 +80,7 @@ Note: In order to be notified on the state of our budget, we can create up to 5 
 <img width="938" alt="aws console 6" src="https://github.com/djcloudking/aws-skills-challenges/assets/122766532/ec1a60cb-0344-48a9-8b4e-f77d05210a82">
 
 
-Voila! Our recurring monthly Budget DJ_BUDGET and Budget Alert is set budget to $10.00, scoped to All Services. When a service reaches “90% of budget”, an alert will be sent to my email djkone2025@gmail.com. You’ve now developed an additional AWS skill.
+Voila! Our recurring monthly Budget DJ_BUDGET and Budget Alert is set budget to $10.00, scoped to All Services. When a service reaches “90% of budget”, an alert will be sent to my personal email. You’ve now developed an additional AWS skill.
 
-Thank you for reading and/or following along! Please stay tuned for the 2nd challenge (Storage S3) and all my upcoming projects, and feel free to check out the rest of my articles at www.fahmacloud.com
+Thank you for reading and/or following along! 
+Wnat to see more tutorials and how-to guides, check my website: [www.fahmacloud.com](https://cloudwithdj.com/tutorial/)
