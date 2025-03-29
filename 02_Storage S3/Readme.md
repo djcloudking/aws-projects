@@ -68,5 +68,8 @@ You’ve successfully uploaded an object to your bucket.
 
  
 Voilà! You have created a S3 bucket and uploaded an object to it using AWS console.
-Thank you for reading and/or following along! Please stay tuned for the 3rd challenge (Networking VPC) and all my upcoming projects, and feel free to check out the rest of my articles at www.fahmacloud.com.
+
+
+Thank you for reading and/or following along! 
+Want to see more tutorials and how-to guides like this one, check my website: [www.cloudwithdj.com](https://cloudwithdj.com/tutorial/) 
 
