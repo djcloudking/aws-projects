@@ -1,6 +1,58 @@
-# aws-skills-challenges
-This repo is a step by step guide of AWS Projects:  
+# AWS Projects
 
-Get started with the most used AWS Services. Find all the necessary steps to start building your AWS Skills as a beginner in AWS Cloud environment.
+This repository is my collection of practical AWS projects that walk you through real-world tasks using a variety of AWS services. Each folder is a standalone hands-on project you can use to build and reinforce your cloud skills.
 
-Beyond AWS: Find the details and the advanced projects in Cloud & DevOps Engineering with AWS. 
+This repo covers different areas of AWS, organized by service category. Projects range from foundational to intermediate, and include examples using the AWS Console, CLI, Python (Boto3), EC2, S3 setup, Lambda functions, VPC, CloudFormation and cost optimization.
+
+
+### Project Index:
+
+| Folder                      | Project Description                                        |
+| --------------------------- | ---------------------------------------------------------- |
+| `01_Costing and Billing`    | Create a monthly AWS Budget and set up alerts              |
+| `02_Storage S3`             | Create a private S3 bucket and upload files                |
+| `03_Networking VPC`         | Build a custom VPC with 3 subnets                          |
+| `04_Serverless Lambda`      | Write a Lambda function to convert Celsius to Fahrenheit   |
+| `05_Database (RDS)`         | Launch a single-AZ MySQL database using Amazon RDS         |
+| `06_Compute (EC2)`          | Deploy an Amazon Linux 2 EC2 instance                      |
+| `07_CloudFormation EC2`     | Launch EC2 via a CloudFormation template                   |
+| `08_FSx for Lustre`         | Use Amazon FSx for Lustre for high-performance data access |
+| `09_S3 Event Notifications` | Trigger events from S3 object changes                      |
+| `10_Static Website Hosting` | Host a static website using Amazon S3                      |
+| `11_Connect to EC2`         | Use SSH and RDP to access EC2 instances                    |
+| `12_AWS CodePipeline`       | Set up a basic CI/CD pipeline between S3 buckets           |
+| `13_Deploy Node.js App`     | Deploy a Node.js application on an EC2 instance            |
+| `14_Cost Optimization`      | Automate cost-saving actions with Lambda and Boto3         |
+| `15_AWS IAM with Boto3`     | Manage IAM resources using Python scripts                  |
+| `16_Event Source Mapping`   | Create event source mappings for AWS Lambda                |
+
+
+## ✅ Requirements
+
+* AWS Account with appropriate IAM permissions
+* AWS CLI installed and configured
+* Basic familiarity with AWS services (EC2, S3, Lambda, etc.)
+* Python 3 (for projects using Boto3)
+* Optional: Terraform or CloudFormation for IaC-based tasks
+
+
+## 💡 Who It's For
+
+* Cloud beginners who want guided, hands-on AWS experience
+* DevOps professionals looking to practice infrastructure tasks
+* Developers exploring automation with Boto3 and Lambda
+* Anyone prepping for AWS certifications
+
+
+## 🙌 Contributions
+
+Got an idea or improvement? Feel free to fork this repo and create a pull request. Open an issue if you run into any bugs or have suggestions.
+
+
+## 📬 Contact
+
+Maintained by [@djcloudking](https://github.com/djcloudking).
+Let’s connect on [LinkedIn](https://www.linkedin.com/in/djakaridiakone/) or check out my [portfolio](https://ycloudwithdj.com/projects).
+
+
+
