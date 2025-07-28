@@ -5,28 +5,6 @@ This repository is my collection of practical AWS projects that walk you through
 This repo covers different areas of AWS, organized by service category. Projects range from foundational to intermediate, and include examples using the AWS Console, CLI, Python (Boto3), EC2, S3 setup, Lambda functions, VPC, CloudFormation and cost optimization.
 
 
-### Project Index:
-
-| Folder                      | Project Description                                        |
-| --------------------------- | ---------------------------------------------------------- |
-| `01_Costing and Billing`    | Create a monthly AWS Budget and set up alerts              |
-| `02_Storage S3`             | Create a private S3 bucket and upload files                |
-| `03_Networking VPC`         | Build a custom VPC with 3 subnets                          |
-| `04_Serverless Lambda`      | Write a Lambda function to convert Celsius to Fahrenheit   |
-| `05_Database (RDS)`         | Launch a single-AZ MySQL database using Amazon RDS         |
-| `06_Compute (EC2)`          | Deploy an Amazon Linux 2 EC2 instance                      |
-| `07_CloudFormation EC2`     | Launch EC2 via a CloudFormation template                   |
-| `08_FSx for Lustre`         | Use Amazon FSx for Lustre for high-performance data access |
-| `09_S3 Event Notifications` | Trigger events from S3 object changes                      |
-| `10_Static Website Hosting` | Host a static website using Amazon S3                      |
-| `11_Connect to EC2`         | Use SSH and RDP to access EC2 instances                    |
-| `12_AWS CodePipeline`       | Set up a basic CI/CD pipeline between S3 buckets           |
-| `13_Deploy Node.js App`     | Deploy a Node.js application on an EC2 instance            |
-| `14_Cost Optimization`      | Automate cost-saving actions with Lambda and Boto3         |
-| `15_AWS IAM with Boto3`     | Manage IAM resources using Python scripts                  |
-| `16_Event Source Mapping`   | Create event source mappings for AWS Lambda                |
-
-
 ## ✅ Requirements
 
 * AWS Account with appropriate IAM permissions
@@ -52,7 +30,7 @@ Got an idea or improvement? Feel free to fork this repo and create a pull reques
 ## 📬 Contact
 
 Maintained by [@djcloudking](https://github.com/djcloudking).
-Let’s connect on [LinkedIn](https://www.linkedin.com/in/djakaridiakone/) or check out my [portfolio](https://ycloudwithdj.com/projects).
+Let’s connect on [LinkedIn](https://www.linkedin.com/in/djakaridiakone/) or check out my [portfolio](https://cloudwithdj.com/projects).
 
 
 
