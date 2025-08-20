@@ -39,13 +39,12 @@ These scripts give you a quick starting point for learning IAM automation with P
 Before running the scripts, ensure you have:
 
 - **Python 3.7+** installed  
-- **Boto3** installed  
-  ```bash
-  pip install boto3
-````
 
-* **AWS credentials** configured (via `aws configure` or environment variables).
-  You’ll need IAM permissions to run these operations.
+- **Boto3** installed  
+
+- **AWS credentials** configured  
+
+- You’ll need IAM permissions to run these operations.
 
 ---
 
@@ -74,4 +73,4 @@ python createuser.py
 * Customize the scripts as needed (e.g., user names, policy ARNs, or role definitions).
 * Some scripts are basic examples — you may want to add error handling or logging for production use.
 
----
+
