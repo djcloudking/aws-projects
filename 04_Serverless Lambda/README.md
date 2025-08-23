@@ -58,7 +58,7 @@ Cheat Sheet: Double check your lambda execution role, and your JSON code if it d
 Voilà! You have now created a Lambda function that converts Celsius to Fahrenheit! You can now use this function in your other AWS services or applications.
 
 Thank you for reading and/or following along! 
-Want to see more tutorials and how-to guides like this one, check my website: [www.cloudwithdj.com](https://cloudwithdj.com/tutorial/) 
+Want to see more tutorials and how-to guides like this one, check my website: [www.cloudwithdj.com](https://cloudwithdj.com/project/) 
 
 
 
