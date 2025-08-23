@@ -3,7 +3,9 @@
 ## Prerequisite:
 
 For this mini-project, you need:
+
 - access to an AWS account.
+
 - to Set up a Free Tier account www.aws.amazon.com/free
 
 ## Project Outline
@@ -83,4 +85,4 @@ Note: In order to be notified on the state of our budget, we can create up to 5 
 Voila! Our recurring monthly Budget DJ_BUDGET and Budget Alert is set budget to $10.00, scoped to All Services. When a service reaches “90% of budget”, an alert will be sent to my personal email. You’ve now developed an additional AWS skill.
 
 Thank you for reading and/or following along! 
-Want to see more tutorials and how-to guides like this one, check my website: [www.cloudwithdj.com](https://cloudwithdj.com/tutorial/)
+Want to see more tutorials and how-to guides like this one, check my website: [www.cloudwithdj.com](https://cloudwithdj.com/project/)
