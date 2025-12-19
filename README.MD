@@ -13,6 +13,14 @@ These are not demo-only projects. Each one reflects real AWS usage patterns.
 - Understanding how services interact
 - Awareness of operational risks and failure points
 
+## Operational Scenarios Covered
+- Production access issues (IAM, SSH, RDP)
+- Cost overruns and budget alerts
+- Misconfigured networking causing outages
+- Storage access failures (S3, FSx)
+- Monitoring gaps and alert validation
+- Deployment issues and rollback awareness
+
 ## Key AWS Services Used
 - EC2
 - IAM
@@ -39,5 +47,10 @@ Each project includes:
 - Infrastructure Support Engineers
 - AWS Support roles
 - NOC / SRE-adjacent teams
+
+## How to Review This Repo (Interviewers)
+- Start with folders 01, 03, 06, 14, and 15
+- Review the INCIDENT.md and TROUBLESHOOTING.md files inside each folder
+- Focus on detection, impact, resolution, and prevention steps
 
 If you’re reviewing this repo as part of an interview process, focus on how issues are **identified and resolved**, not just deployed.
